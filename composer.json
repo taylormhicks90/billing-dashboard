@@ -1,0 +1,26 @@
+{
+  "name": "taylor/billing-dashboard",
+  "description": "A billing dashboard for laravel using Cashier and Stripe",
+  "type": "library",
+  "require": {
+    "laravel/cashier": "^v14.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Taylor\\BillingDashboard\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Taylor Hicks",
+      "email": "taylor@whatsmyoffer.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Taylor\\BillingDashboard\\BillingDashboardServiceProvider"
+      ]
+    }
+  }
+}
