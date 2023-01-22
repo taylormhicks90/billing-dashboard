@@ -2,6 +2,7 @@
   "name": "taylor/billing-dashboard",
   "description": "A billing dashboard for laravel using Cashier and Stripe",
   "type": "library",
+  "license": "MIT",
   "require": {
     "laravel/cashier": "^v14.0.0"
   },

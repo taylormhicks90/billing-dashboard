@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5925dc9ba3f598b0e9e0b9bdf40cc2ec",
+    "content-hash": "d5f99e7e54bcb184a6ff1b92ee352daa",
     "packages": [
         {
             "name": "brick/math",
@@ -1320,6 +1320,56 @@
             "time": "2022-12-12T15:38:36+00:00"
         },
         {
+            "name": "illuminate/pagination",
+            "version": "v9.48.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/pagination.git",
+                "reference": "511d24b9a109b42c61ef9b7334b5e968f6458550"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/pagination/zipball/511d24b9a109b42c61ef9b7334b5e968f6458550",
+                "reference": "511d24b9a109b42c61ef9b7334b5e968f6458550",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/collections": "^9.0",
+                "illuminate/contracts": "^9.0",
+                "illuminate/support": "^9.0",
+                "php": "^8.0.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Pagination\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Pagination package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2022-07-20T15:51:27+00:00"
+        },
+        {
             "name": "illuminate/pipeline",
             "version": "v9.48.0",
             "source": {
@@ -1677,43 +1727,44 @@
         },
         {
             "name": "laravel/cashier",
-            "version": "v14.0.0",
+            "version": "v14.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/cashier-stripe.git",
-                "reference": "7745dbfa0442f818f52370dab47f73c98d5ec459"
+                "reference": "498453a1df770175ffbc084e46569a54b3ac1474"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/cashier-stripe/zipball/7745dbfa0442f818f52370dab47f73c98d5ec459",
-                "reference": "7745dbfa0442f818f52370dab47f73c98d5ec459",
+                "url": "https://api.github.com/repos/laravel/cashier-stripe/zipball/498453a1df770175ffbc084e46569a54b3ac1474",
+                "reference": "498453a1df770175ffbc084e46569a54b3ac1474",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "illuminate/console": "^9.21",
-                "illuminate/contracts": "^9.21",
-                "illuminate/database": "^9.21",
-                "illuminate/http": "^9.21",
-                "illuminate/log": "^9.21",
-                "illuminate/notifications": "^9.21",
-                "illuminate/routing": "^9.21",
-                "illuminate/support": "^9.21",
-                "illuminate/view": "^9.21",
+                "illuminate/console": "^9.21|^10.0",
+                "illuminate/contracts": "^9.21|^10.0",
+                "illuminate/database": "^9.21|^10.0",
+                "illuminate/http": "^9.21|^10.0",
+                "illuminate/log": "^9.21|^10.0",
+                "illuminate/notifications": "^9.21|^10.0",
+                "illuminate/pagination": "^9.21|^10.0",
+                "illuminate/routing": "^9.21|^10.0",
+                "illuminate/support": "^9.21|^10.0",
+                "illuminate/view": "^9.21|^10.0",
                 "moneyphp/money": "^4.0",
                 "nesbot/carbon": "^2.0",
                 "php": "^8.0",
-                "stripe/stripe-php": "^7.39|^8.0|^9.0",
+                "stripe/stripe-php": "^7.39|^8.0|^9.0|^10.0",
                 "symfony/http-kernel": "^6.0",
                 "symfony/polyfill-intl-icu": "^1.22.1"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "orchestra/testbench": "^7.0",
+                "orchestra/testbench": "^7.0|^8.0",
                 "phpunit/phpunit": "^9.0"
             },
             "suggest": {
-                "dompdf/dompdf": "Required when generating and downloading invoice PDF's (^1.0.1|^2.0).",
+                "dompdf/dompdf": "Required when generating and downloading invoice PDF's using Dompdf (^1.0.1|^2.0).",
                 "ext-intl": "Allows for more locales besides the default \"en\" when formatting money values."
             },
             "type": "library",
@@ -1757,7 +1808,7 @@
                 "issues": "https://github.com/laravel/cashier/issues",
                 "source": "https://github.com/laravel/cashier"
             },
-            "time": "2022-08-23T14:43:14+00:00"
+            "time": "2023-01-10T18:19:38+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -2921,16 +2972,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v9.9.0",
+            "version": "v10.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "479b5c2136fde0debb93d290ceaf20dd161c358f"
+                "reference": "87def896d9a2e2914871408277d67432cb112f71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/479b5c2136fde0debb93d290ceaf20dd161c358f",
-                "reference": "479b5c2136fde0debb93d290ceaf20dd161c358f",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/87def896d9a2e2914871408277d67432cb112f71",
+                "reference": "87def896d9a2e2914871408277d67432cb112f71",
                 "shasum": ""
             },
             "require": {
@@ -2976,9 +3027,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v9.9.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v10.4.0"
             },
-            "time": "2022-11-08T20:25:52+00:00"
+            "time": "2023-01-19T19:18:38+00:00"
         },
         {
             "name": "symfony/console",
