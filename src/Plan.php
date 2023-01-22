@@ -1,10 +1,10 @@
 <?php
 
-namespace Taylor\BillingDashboard;
+namespace BitByte\BillingDashboard;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Traits\Macroable;
-use Taylor\BillingDashboard\Enums\BillingInterval;
+use BitByte\BillingDashboard\Enums\BillingInterval;
 
 class Plan implements Arrayable, \JsonSerializable
 {
@@ -26,7 +26,7 @@ class Plan implements Arrayable, \JsonSerializable
     public bool $active = true;
 
     /**
-     * @param \Taylor\BillingDashboard\Enums\BillingInterval $interval
+     * @param \BitByte\BillingDashboard\Enums\BillingInterval $interval
      *
      * @return Plan
      */

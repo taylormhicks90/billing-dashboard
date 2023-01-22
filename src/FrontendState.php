@@ -1,5 +1,5 @@
 <?php
-namespace Taylor\BillingDashboard;
+namespace BitByte\BillingDashboard;
 
 use Illuminate\Database\Eloquent\Model;
 class FrontendState

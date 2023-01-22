@@ -1,6 +1,6 @@
 <?php
 
-namespace Taylor\BillingDashboard\Http\Middleware;
+namespace BitByte\BillingDashboard\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Inertia\Middleware;

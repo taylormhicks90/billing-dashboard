@@ -1,6 +1,6 @@
 <?php
 
-namespace Taylor\BillingDashboard\Enums;
+namespace BitByte\BillingDashboard\Enums;
 
 enum BillingInterval :string
 {

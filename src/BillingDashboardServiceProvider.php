@@ -1,6 +1,6 @@
 <?php
 
-namespace Taylor\BillingDashboard;
+namespace BitByte\BillingDashboard;
 
 use Illuminate\Support\ServiceProvider;
 

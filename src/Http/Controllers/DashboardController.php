@@ -1,11 +1,11 @@
 <?php
 
-namespace Taylor\BillingDashboard\Http\Controllers;
+namespace BitByte\BillingDashboard\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\View;
 use Inertia\Inertia;
-use Taylor\BillingDashboard\FrontendState;
+use BitByte\BillingDashboard\FrontendState;
 
 class DashboardController extends Controller
 {

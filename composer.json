@@ -1,5 +1,5 @@
 {
-  "name": "taylor/billing-dashboard",
+  "name": "bit-byte/billing-dashboard",
   "description": "A billing dashboard for laravel using Cashier and Stripe",
   "type": "library",
   "license": "MIT",
@@ -8,19 +8,19 @@
   },
   "autoload": {
     "psr-4": {
-      "Taylor\\BillingDashboard\\": "src/"
+      "BitByte\\BillingDashboard\\": "src/"
     }
   },
   "authors": [
     {
       "name": "Taylor Hicks",
-      "email": "taylor@whatsmyoffer.com"
+      "email": "taylor@instantofferengine.com"
     }
   ],
   "extra": {
     "laravel": {
       "providers": [
-        "Taylor\\BillingDashboard\\BillingDashboardServiceProvider"
+        "BitByte\\BillingDashboard\\BillingDashboardServiceProvider"
       ]
     }
   }
