@@ -1,10 +1,10 @@
 <?php
 
-namespace BitByte\BillingDashboard;
+namespace Glint;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Traits\Macroable;
-use BitByte\BillingDashboard\Enums\BillingInterval;
+use Glint\Enums\BillingInterval;
 
 class Plan implements Arrayable, \JsonSerializable
 {
@@ -26,7 +26,7 @@ class Plan implements Arrayable, \JsonSerializable
     public bool $active = true;
 
     /**
-     * @param \BitByte\BillingDashboard\Enums\BillingInterval $interval
+     * @param \Glint\Enums\BillingInterval $interval
      *
      * @return Plan
      */

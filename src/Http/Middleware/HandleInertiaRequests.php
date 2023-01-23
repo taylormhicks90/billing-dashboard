@@ -1,6 +1,6 @@
 <?php
 
-namespace BitByte\BillingDashboard\Http\Middleware;
+namespace Glint\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Inertia\Middleware;

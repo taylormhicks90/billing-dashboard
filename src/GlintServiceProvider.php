@@ -1,10 +1,10 @@
 <?php
 
-namespace BitByte\BillingDashboard;
+namespace Glint;
 
 use Illuminate\Support\ServiceProvider;
 
-class BillingDashboardServiceProvider extends ServiceProvider
+class GlintServiceProvider extends ServiceProvider
 {
     public function register()
     {

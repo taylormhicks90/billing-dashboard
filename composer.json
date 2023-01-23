@@ -1,5 +1,5 @@
 {
-  "name": "bit-byte/billing-dashboard",
+  "name": "bit-byte/glint",
   "description": "A billing dashboard for laravel using Cashier and Stripe",
   "type": "library",
   "license": "MIT",
@@ -8,7 +8,7 @@
   },
   "autoload": {
     "psr-4": {
-      "BitByte\\BillingDashboard\\": "src/"
+      "Glint\\": "src/"
     }
   },
   "authors": [
@@ -20,7 +20,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "BitByte\\BillingDashboard\\BillingDashboardServiceProvider"
+        "Glint\\GlintServiceProvider"
       ]
     }
   }

@@ -1,5 +1,5 @@
 <?php
-namespace BitByte\BillingDashboard;
+namespace Glint;
 
 use Illuminate\Database\Eloquent\Model;
 class FrontendState

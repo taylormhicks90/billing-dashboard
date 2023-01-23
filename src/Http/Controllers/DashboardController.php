@@ -1,11 +1,11 @@
 <?php
 
-namespace BitByte\BillingDashboard\Http\Controllers;
+namespace Glint\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\View;
 use Inertia\Inertia;
-use BitByte\BillingDashboard\FrontendState;
+use Glint\FrontendState;
 
 class DashboardController extends Controller
 {

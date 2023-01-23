@@ -1,6 +1,6 @@
 <?php
 
-namespace BitByte\BillingDashboard\Enums;
+namespace Glint\Enums;
 
 enum BillingInterval :string
 {
